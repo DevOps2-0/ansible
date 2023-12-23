@@ -1,7 +1,7 @@
 # Play Level Variables
 
 - name: variables from PLAY level
-  hosts: localhosts
+  hosts: localhost
   vars:
     Course: DevOps
     Trainer: Siva
