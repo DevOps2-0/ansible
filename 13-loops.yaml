@@ -1,0 +1,11 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: print cloud technologies
+    ansible.builtin.debug:
+      msg: "Cloud Technoglies: {{item}}" # item is a default keyword
+    loop:
+    - AWS
+    - Azure
+    - GCP
+    - Oracle Cloud
